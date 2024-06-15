@@ -1,5 +1,5 @@
 """ Create a Account class with methods"""
-
+##account = Account(400.0, 2.5)
 class Account:
     """Creating an Account class with methods"""
     def __init__(self, balance, interest):
@@ -10,6 +10,8 @@ class Account:
     def set_balance(self, balance):
         """Sets the balance for the for the account"""
         self.balance = balance
+        ##account = Account(400.0, 2.5)
+
 
     # The method sets the interest gained for the account.
     def set_interest(self, interest):
