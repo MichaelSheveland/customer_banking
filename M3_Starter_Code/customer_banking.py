@@ -40,6 +40,6 @@ def main():
     print(f"Interest Earned: ${interest_earned_cd:.2f}")
     print(f"Updated Balance: ${updated_cd_balance:.2f}")
 
-    if __name__ == "__main__":
     # Call the main function.
-        main()  
+if __name__ == "__main__":
+    main()
